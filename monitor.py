@@ -58,7 +58,7 @@ def date_label(d):
 def vox_url_for_date(d):
     if d == today_egypt():
         return VOX_BASE_URL
-    return f"{VOX_BASE_URL}&d={d.strftime('%Y%m%d')}"
+    return f"{VOX_BASE_URL}?d={d.strftime('%Y%m%d')}"
 
 
 def parse_showtime_dt(target_date, time_text):
@@ -252,6 +252,9 @@ def process_movies_for_date(movies, target_date, sent_items):
     total_new = 0
 
     for movie in movies:
+                title = movie["title"].lower()
+        if "avengers" not in title or "doomsday" not in title:
+            continue
         new_by_hall = {}
         for hall in movie["halls"]:
             new_showtimes = []
