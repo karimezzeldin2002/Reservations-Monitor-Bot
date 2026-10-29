@@ -252,7 +252,8 @@ def process_movies_for_date(movies, target_date, sent_items):
     total_new = 0
 
     for movie in movies:
-                title = movie["title"].lower()
+        title = movie["title"].lower()
+
         if "avengers" not in title or "doomsday" not in title:
             continue
         new_by_hall = {}
