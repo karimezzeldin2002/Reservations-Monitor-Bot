@@ -15,7 +15,7 @@ from selenium.webdriver.support import expected_conditions as EC
 TELEGRAM_TOKEN = os.environ['TELEGRAM_TOKEN']
 CHAT_ID = os.environ['TELEGRAM_CHAT_ID']
 
-VOX_BASE_URL = 'https://egy.voxcinemas.com/showtimes?c=city-centre-almaza'
+'https://egy.voxcinemas.com/showtimes/mall-of-egypt'
 TAZKARTI_URL = 'https://www.tazkarti.com/#/matches'
 TAZKARTI_MATCH_SELECTOR = 'div.content.matches div.match'
 SENT_FILE = 'sent.txt'
