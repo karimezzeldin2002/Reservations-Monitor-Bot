@@ -6201,3 +6201,5 @@ tazkarti:al-ahly:egyptcup2026202713
 tazkarti:al-ahly:basketballmenandjuniorschampionship202620271
 tazkarti:al-ahly:basketballmenandjuniorschampionship202620273
 tazkarti:al-ahly:oraleague2026202782
+tazkarti:al-ahly:basketballmenandjuniorschampionship202620278
+tazkarti:al-ahly:basketballmenandjuniorschampionship2026202710
